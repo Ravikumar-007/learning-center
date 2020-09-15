@@ -1,13 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- <script src = "closure.js"></script> -->
-        <script src = "eventFlow.js"></script>
-    </head>
-    <body>
-        <h3>Hello</h3>
-        <div id="parent">
-            <button id="child">Child</button>
-          </div>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="function.js"></script>
+    <style>
+        .parent {
+            border: 2px dotted red;
+            display: inline-block;
+        }
+        
+        .box {
+            display: inline-block;
+            background: black;
+            color: white;
+            width: 100px;
+            height: 100px;
+        }
+        
+        #two {
+            background: green;
+            position: static;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<div class="parent">
+    <div class="box" id="one">One</div>
+    <div class="box" id="two">Two</div>
+    <div class="box" id="three">Three</div>
+    <div class="box" id="four">Four</div>
+    <div class="box" id="five">Five</div>
+</div>
+
+<body>
+
+</body>
+
 </html>
